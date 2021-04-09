@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+.navbar{
+  background:linear-gradient(to right,#c680f5,#d65c95,#e98884);
+  color: #000;
+}
+#name{
+  text-decoration: underline;
+  color: deeppink;
+  font-weight: bolder;
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.search{
+  border-radius: 20px;
+}
+
+
+
+#featured-categories{
+  margin: 50px 0;
+}
+#featured-categories img{
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+#featured-categories img:hover{
+      transform: scale(1.1);
+}
+.title-box{
+  background-color: blueviolet;
+  color: deeppink;
+  width: 180px;
+  padding: 10px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.title-box h2{
+    font-size: 24px;
+}
+.product-top{
+   width: 100%;
+}
+.overlay-right{
+  display:block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: 0;
+  width: 70px;
+}
+.overlay-right .fa{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+.overlay-right .btn-secondary{
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.product-top:hover .overlay-right{
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+.product-bottom .fa{
+  color: orange;
+  font-size: 10px;
+
+}
+.product-bottom h3{
+  font-size: 20px;
+  font-weight: bold ;
+}
+.product-bottom h5{
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.new-products{
+  margin: 50px 0;
+}
+.features img{
+   width: 20%;
+}
+.footer{
+  margin-top: 50px;
+  background: #000;
+  color: #fff;
+
+}
+.footer h1{
+  font-size: 15px;
+  margin: 25px 0;
+}
+.footer p{
+  font-size: 12px;
+
+}
+.cpy{
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}

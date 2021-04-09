@@ -1,0 +1,28 @@
+.container{
+    margin-top: 100px;
+}
+.newarrival{
+    background:green ;
+    width:50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.col-md-7 h2{
+    color: #555;
+
+}
+.price{
+    color: red;
+}
+.card-header{
+    max-height: 16px;
+    padding-left:50px;
+}
+.col-lg-4{
+    padding: 10px;
+}
+.pdt{
+    display: block;
+    width: 100%;
+}

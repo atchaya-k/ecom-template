@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right,#7f27b9,#e4056d,#b92c27);
+}
+.login{
+    color: #fff;
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 20px;
+    border: none;
+}
+.box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background: #191919;
+    text-align:center;
+    margin-top: 100px;
+}
+.box input[type="text"],
+.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #3498db ;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus{
+    width: 300px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+     border-radius: 24px;
+     transition: 0.25s;
+     cursor: pointer;
+    color: white;
+
+}
+.box input[ytpe="submit"]:hover{
+    background: #2ecc71;
+}
+.forgot{
+    text-decoration: underline;
+}
+ul.social-network{
+    list-style: none;
+    display: inline;
+    margin-left:0;
+    padding: 0;
+}
+ul.social-network li{
+    display: inline;
+    margin: 0 5px;
+
+}
+.social-network a.icoFacebook:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoTwitter:hover i{
+    color: #fff;
+}

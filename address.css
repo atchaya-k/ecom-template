@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right,#7f27b9,#e4056d,#b92c27);
+}
+.deladd{
+    color: #fff;
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 20px;
+    border: none;
+}
+.box label{
+    color: #fff;
+}
+
+.box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left: 30%;
+    background: #191919;
+    text-align:center;
+    margin-top: 100px;
+}
+.box input[type="text"]:focus,
+.box input[type="number"]:focus,
+.box textarea:focus,
+.box input[type="password"]:focus{
+    width: 300px;
+    border-color: #2ecc71;
+}
